@@ -18,3 +18,16 @@ body {
 
 /* font-family: "Headland One", serif; */
 /* font-family: "Hammersmith One", sans-serif; */
+
+.container {
+    width: 1062px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: 1px solid tomato;
+}
+
+.section {
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
