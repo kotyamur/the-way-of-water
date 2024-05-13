@@ -48,11 +48,30 @@ body {
     background-color:  var(--bg-btn-color);
 }
 
+.flex {
+    display: flex;
+}
+
 /* header */
 
 .header {
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: 184px;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 38px;
 }
 
 .header-link {
@@ -72,6 +91,7 @@ body {
 }
 
 .header-btn {
+    margin-left: auto;
     padding: 8px 36px;
     border: 2px solid var(--accent-color);
     border-top-left-radius: 35px;
@@ -86,6 +106,7 @@ body {
 }
 
 .hero-text {
+    margin-bottom: 40px;
     width: 280px;
     font-size: 20px;
     color: #fff;
@@ -107,6 +128,7 @@ body {
 }
 
 .expression-text {
+    margin-bottom: 16px;
     font-size: 36px;
     text-align: center;
     color: var(--heading-color);
@@ -126,6 +148,8 @@ body {
 
 .trailer-btn {
     display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
     padding: 24px 18px;
     border: 3px solid var(--accent-color);
     border-top-left-radius: 45px;
@@ -141,18 +165,28 @@ body {
 }
 
 .language-title {
+    margin-bottom: 45px;
     font-family: "Headland One", serif;
     font-weight: 400;
     font-size: 32px;
+    text-align: center;
     color: var(--main-text-color);
 }
 
 .language-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 24px;
     font-family: "Headland One", serif;
 }
 
 .language-item {
+    flex-basis: calc((100% - 80px) / 3);
+    padding: 36px;
+    background-color: rgba(255, 255, 255, 0.7);
     font-family: "Headland One", serif;
+    text-align: center;
 }
 
 .language-item > p:last-child {
@@ -165,12 +199,30 @@ body {
     padding-bottom: 25px;
 }
 
+.footer-logo {
+    padding: 42px 80px 42px 0px;
+    border-right: 2px solid #fff;
+    margin-right: 80px;
+}
+
+.footer-logo + div {
+    width: 100%;
+}
+
 .footer-list {
+    margin-bottom: 36px;
     font-size: 20px;
     color: var(--secondary-text-color);
 }
 
+.footer-list > li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
 .footer-security {
+    text-align: center;
     font-size: 14px;
     color: var(--secondary-text-color);
 }
