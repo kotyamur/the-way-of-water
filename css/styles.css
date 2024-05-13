@@ -46,6 +46,11 @@ body {
     font-size: 20px;
     color: var(--accent-color);
     background-color:  var(--bg-btn-color);
+    transition: background-color 500ms ease-in-out;
+}
+
+.btn:hover {
+    background-color: #07094b;
 }
 
 .flex {
@@ -105,6 +110,7 @@ body {
     border-bottom-right-radius: 35px;
 }
 
+
 /* hero */
 
 .hero {
@@ -115,13 +121,22 @@ body {
 }
 
 .hero-text {
-    margin-bottom: 40px;
     width: 280px;
     font-size: 20px;
     color: #fff;
 }
 
+.hero-text:first-child::after {
+    width: 152px;
+    height: 40px;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    background-image: url(../images/hero-arrow.svg);
+}
+
 .hero-btn {
+    margin-top: 40px;
     padding: 24px 74px;
     border: 3px solid var(--accent-color);
     border-top-left-radius: 45px;
