@@ -22,3 +22,9 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+button {
+    color: currentColor;
+    background-color: transparent;
+    border: 1px solid transparent;
+}

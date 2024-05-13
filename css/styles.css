@@ -3,6 +3,7 @@
     --main-text-color: #141414;
     --secondary-text-color: #FFFFFF;
     --background-color: #FFFFFF;
+    --secondary-bg-color: rgba(43, 74, 97, 0.87);;
     --accent-color: #26C7EA;
     --hover-color: #94CFFF;
     --bg-btn-color: #0B0E66;
@@ -30,4 +31,118 @@ body {
     max-width: 1440px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: var(--secondary-bg-color);
+}
+
+.btn {
+    cursor: pointer;
+    font-family: "Headland One", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--accent-color);
+    background-color:  var(--bg-btn-color);
+}
+
+/* header */
+
+.header-link {
+    font-weight: 300;
+    font-size: 20px;
+    color: var(--secondary-text-color);
+    transition: color 500ms ease-in-out;
+}
+
+.header-link:hover {
+    color: var(--hover-color);
+}
+
+.header-link.current {
+    font-weight: 600;
+    color: var(--hover-color);
+}
+
+.header-btn {
+    padding: 8px 36px;
+    border: 2px solid var(--accent-color);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+/* hero */
+
+.hero-text {
+    width: 280px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.hero-btn {
+    padding: 24px 74px;
+    border: 3px solid var(--accent-color);
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    font-size: 24px;
+}
+
+/* expression */
+
+.expression-text {
+    font-size: 36px;
+    text-align: center;
+    color: var(--heading-color);
+}
+
+.expression-author {
+    font-size: 24px;
+    text-align: center;
+    color: #000;
+}
+
+/* trailer */
+
+.trailer-btn {
+    display: inline-block;
+    padding: 24px 18px;
+    border: 3px solid var(--accent-color);
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    font-size: 24px;
+}
+
+/* language */
+
+.language-title {
+    font-family: "Headland One", serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: var(--main-text-color);
+}
+
+.language-list {
+    font-family: "Headland One", serif;
+}
+
+.language-item {
+    font-family: "Headland One", serif;
+}
+
+.language-item > p:last-child {
+    color: #000;
+}
+
+/* footer */
+
+.footer-list {
+    font-size: 20px;
+    color: var(--secondary-text-color);
+}
+
+.footer-security {
+    font-size: 14px;
+    color: var(--secondary-text-color);
 }
