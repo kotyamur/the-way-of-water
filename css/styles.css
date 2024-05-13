@@ -50,6 +50,11 @@ body {
 
 /* header */
 
+.header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .header-link {
     font-weight: 300;
     font-size: 20px;
@@ -75,6 +80,11 @@ body {
 
 /* hero */
 
+.hero {
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
 .hero-text {
     width: 280px;
     font-size: 20px;
@@ -91,6 +101,11 @@ body {
 
 /* expression */
 
+.expression {
+    padding-top: 75px;
+    padding-bottom: 12px;
+}
+
 .expression-text {
     font-size: 36px;
     text-align: center;
@@ -104,6 +119,10 @@ body {
 }
 
 /* trailer */
+.trailer {
+    padding-top: 330px;
+    padding-bottom: 330px;
+}
 
 .trailer-btn {
     display: inline-block;
@@ -115,6 +134,11 @@ body {
 }
 
 /* language */
+
+.language {
+    padding-top: 58px;
+    padding-bottom: 58px;
+}
 
 .language-title {
     font-family: "Headland One", serif;
@@ -136,6 +160,10 @@ body {
 }
 
 /* footer */
+.footer {
+    padding-top: 53px;
+    padding-bottom: 25px;
+}
 
 .footer-list {
     font-size: 20px;
