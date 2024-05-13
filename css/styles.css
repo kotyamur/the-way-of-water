@@ -144,6 +144,18 @@ body {
     font-size: 24px;
 }
 
+.hero > .flex {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 24px;
+}
+
 /* expression */
 
 .expression {
