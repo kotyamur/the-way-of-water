@@ -221,7 +221,7 @@ body {
 
 .language-item {
     flex-basis: calc((100% - 80px) / 3);
-    padding: 36px;
+    padding: 36px 20px;
     background-color: rgba(255, 255, 255, 0.7);
     font-family: "Headland One", serif;
     text-align: center;
@@ -229,6 +229,32 @@ body {
 
 .language-item > p:last-child {
     color: #000;
+}
+
+.language-item-phrase {
+    margin-bottom: 40px;
+}
+
+.language-item-phrase::after {
+    display: block;
+    content: "";
+    width: 152px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+.language-item:nth-child(3n + 1) > .language-item-phrase::after {
+    background-image: url(../images/left-arrow.svg);
+}
+
+.language-item:nth-child(3n + 2) > .language-item-phrase::after {
+    background-image: url(../images/little-bird.svg);
+}
+
+.language-item:nth-child(3n) > .language-item-phrase::after {
+    background-image: url(../images/right-arrow.svg);
 }
 
 /* footer */
