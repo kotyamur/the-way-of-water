@@ -149,6 +149,17 @@ body {
     color: #000;
 }
 
+.expression-author::after {
+    content: "";
+    display: block;
+    height: 120px;
+    width: 400px;
+    margin-top: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(../images/bird.svg);
+}
+
 /* trailer */
 .trailer {
     padding-top: 330px;
@@ -236,6 +247,7 @@ body {
 .footer-list > li {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 16px;
 }
 
