@@ -57,6 +57,9 @@ body {
 .header {
     padding-top: 40px;
     padding-bottom: 40px;
+    border-bottom: 3px solid #fff;
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../images/header-bg.jpg);
+    background-size: cover;
 }
 
 .header-nav {
@@ -103,6 +106,8 @@ body {
 .hero {
     padding-top: 180px;
     padding-bottom: 180px;
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
 }
 
 .hero-text {
@@ -144,12 +149,13 @@ body {
 .trailer {
     padding-top: 330px;
     padding-bottom: 330px;
+    background-image: url(../images/trailer-bg.jpg);
+    background-size: cover;
+    text-align: center;
 }
 
 .trailer-btn {
     display: inline-block;
-    margin-right: auto;
-    margin-left: auto;
     padding: 24px 18px;
     border: 3px solid var(--accent-color);
     border-top-left-radius: 45px;
@@ -162,6 +168,8 @@ body {
 .language {
     padding-top: 58px;
     padding-bottom: 58px;
+    background-image: url(../images/language-bg.jpg);
+    background-size: cover;
 }
 
 .language-title {
@@ -197,6 +205,7 @@ body {
 .footer {
     padding-top: 53px;
     padding-bottom: 25px;
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../images/footer-bg.jpg);
 }
 
 .footer-logo {
