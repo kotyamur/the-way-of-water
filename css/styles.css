@@ -24,7 +24,6 @@ body {
     width: 1062px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: 1px solid tomato;
 }
 
 .section {
@@ -60,6 +59,7 @@ body {
 /* header */
 
 .header {
+    position: relative;
     padding-top: 40px;
     padding-bottom: 40px;
     border-bottom: 3px solid #fff;
@@ -110,6 +110,31 @@ body {
     border-bottom-right-radius: 35px;
 }
 
+.header-swiper {
+    position: absolute;
+    right: 48px;
+    top: 64px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1400px) {
+    .header-swiper {
+      top: 20px;
+    }
+  }
+
+.header-swiper > a {
+    font-family: "Hammersmith One", sans-serif;
+    font-size: 16px;
+    color: var(--secondary-text-color);
+    transition: color 500ms ease-in-out;
+}
+
+.header-swiper > a:hover {
+    color: var(--hover-color);
+}
 
 /* hero */
 
@@ -274,6 +299,8 @@ body {
     padding-top: 53px;
     padding-bottom: 25px;
     background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .footer-logo {
